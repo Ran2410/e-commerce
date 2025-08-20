@@ -1,0 +1,11 @@
+@import "tailwindcss";
+@import "../../node_modules/preline/variants.css";
+
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+@source '../../storage/framework/views/*.php';
+@source "../../node_modules/preline/dist/*.js";
+@source '../**/*.blade.php';
+@source '../**/*.js';
+
+
+@custom-variant dark (&:where(.dark, .dark *));
